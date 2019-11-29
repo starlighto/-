@@ -28,11 +28,11 @@ void main() {
 	s->data = '.';
 	s->L_link = NULL;
 	s->R_link = NULL;
-	printf("°í°´ ¹øÈ£[¾î¸°ÀÌ:1 Ã»¼Ò³â:2 20´ë ÀÌ»ó:3]\n");
-	printf(" + :Push \n P :POP \n A :Show all data \n R :Reverse stack \n S :Å½»ö\n C :Count customer\n Q: Quit\n");
+	printf("ì—°ë ¹ë³„ ê³ ê° ë²ˆí˜¸[ì–´ë¦°ì´:1 ì²­ì†Œë…„:2 20ëŒ€ ì´ìƒ:3]\n");
+	printf(" + :Push \n P :POP \n A :Show all data \n R :Reverse stack \n S :íƒìƒ‰\n C :Count customer\n Q: Quit\n");
 
 	while (1) {
-		printf("\nÀÔ·Â: ");
+		printf("\nì…ë ¥: ");
 		scanf_s("%c",&input1);
 		switch (input1) {
 		case '+':
