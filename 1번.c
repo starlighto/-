@@ -1,3 +1,4 @@
+//ADT의 연결리스트 기반 구현내용에 BOTTOM 값(스택의 맨 아래 값)을 반환하는 void* stackBottom(STACK* stack) 함수를 정의하여 추가하시오.
 #include<stdio.h>
 #include<stdbool.h>
 #include<stdlib.h>
