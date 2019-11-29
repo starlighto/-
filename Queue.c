@@ -59,7 +59,7 @@ void main() {
 	printf(" + :Push \n P :Pop\n S :Show all Queue\n C :Count queue\n Q :Quit\n");
 
 	while (1) {
-		printf("\n�Է�: ");
+		printf("\nÀÔ·Â: ");
 		input1 = getchar();
 		input1 = toupper(input1);
 		switch (input1) {
